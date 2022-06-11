@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  @apply bg-slate-600
+}
+
+.list-content{
+  height: 70vh;
+}
+
+.list-wrapper{
+  height: 95%;
+  min-height: 95%;
+  max-height: 95%;
+}
+
+.footer{
+  height: 5%;
+}
+
+.completed{
+  font-style: italic;
+  text-decoration: line-through;
+  color: red;
+}
