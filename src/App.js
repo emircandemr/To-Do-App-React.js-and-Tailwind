@@ -5,8 +5,6 @@ import ListContent from "./components/listContent"
 
 
 function App() {
-
-  
   return (
         <div>
           
@@ -14,6 +12,7 @@ function App() {
         <Input/>
 
         <ListContent>
+          
         </ListContent>
 
         </div>
